@@ -12,8 +12,6 @@ class Program
         //Console.Write("Digite o valor que deseja sacar da sua conta bancária: ");
         int valorSaque = int.Parse(Console.ReadLine());
         
-        //TODO: Criar as condições necessárias para impressão da saída, vide tabela de exemplos.
-        
         // Verifica se o saldo da conta é o suficiente para realizar o Saque
         if (saldoTotal >= valorSaque) 
         {
